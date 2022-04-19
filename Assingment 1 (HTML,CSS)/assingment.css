@@ -1,0 +1,27 @@
+html{
+    background-color: aqua;
+    
+}
+h1{border: 4px double grey;
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+form{
+    margin-left: 150px;
+
+}
+.satyam input{
+    margin-left:100px ;
+
+}
+label{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+}
+p{
+    width: 150px;
+}
