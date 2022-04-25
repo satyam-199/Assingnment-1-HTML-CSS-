@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    
+    <style>
+         /*selector (>) is known as child selector , child selector can select the direct child of the parent */
+        div > p{
+            background-color: aqua;
+            color: red;
+        }
+
+        /* selector (+)is known as adjacent sibling selector, is use to select an element that is directly after another specific element */
+        
+div+p{
+    background-color: brown;
+    color: rgb(0, 255, 115);
+
+}
+/* selector (~) general sibling selector select all element that are next siblings of a specified element*/
+div~li{
+    background-color: black;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Combinator of CSS</h1>
+    <div>
+        <p>Welcome to the Gemini Family</p>
+        <p>Welcome to the Gemini Family</p> 
+       <span> <p>Welcome to the Gemini Family</p> </span>
+    </div>
+    <p>Welcome to the Gemini Family</p>
+    <p>Welcome to the Gemini Family</p>
+    <li> Gemini Solution Visualize success</li>
+    <li> Gemini Solution Visualize success</li>
+    <li> Gemini Solution Visualize success</li>
+
+
+
+   
+</body>
+</html>
